@@ -56,7 +56,7 @@ export default function Contact() {
       pb-6
       "
       >
-       I'm genuinely excited about the possibility of contributing my mix of skills and enthusiasm to a team that values innovation and creativity.
+       I´m genuinely excited about the possibility of contributing my mix of skills and enthusiasm to a team that values innovation and creativity.
       </p>
       <div  className="flex flex-col lg:flex-row gap-4 justify-center">
         <Button 

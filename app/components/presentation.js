@@ -26,7 +26,7 @@ export default function Presentation() {
     initial={{ opacity: 0}}
     animate={{opacity: 1}}
     className="text-black-theme dark:text-white-theme text-5xl lg:text-7xl font-bold pb-4">
-      Let's build together!
+      Let´s build together!
     </h2>
     <p 
     initial={{ opacity: 0}}
