@@ -1,5 +1,6 @@
 import './globals.css'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from '@vercel/analytics/react';
 import Navbar from './components/navbar'
 import Footer from './components/footer'
 import LavaLamp from './animation/lavaLamp'
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
         {children}
         <LavaLamp />
         <Footer />
+        <Analytics />
         <SpeedInsights />
       </body>
     </html>
