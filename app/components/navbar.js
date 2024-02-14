@@ -118,6 +118,7 @@ export default function Navbar() {
         </motion.ul>
       </nav>
       <button
+      aria-label={visibleNav ? "Close Menu" : "Open Menu"}
       onClick={handleMobileNav} className="lg:hidden z-50 ">
         {visibleNav ? <ExitIcon /> : <HamburgerIcon />}
       </button>

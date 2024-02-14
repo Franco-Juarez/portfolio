@@ -41,7 +41,7 @@ export default function FeaturedProyect() {
       ref={ref}
       className="space-y-2 lg:space-y-4">
         <h2 className="text-orange-light-theme dark:text-orange-theme font-body text-xl">Featured Proyect</h2>
-        <h4 className="text-3xl font-bold text-black-theme dark:text-white-theme">Swwwing Landing Page</h4>
+        <h3 className="text-3xl font-bold text-black-theme dark:text-white-theme">Swwwing Landing Page</h3>
         <p className="text-black-theme dark:text-white-theme">
           This project involves implementing a responsive website using React Js and Chakra UI to bring styles and interactivity to life for the user. Additionally, it includes the integration of a contact form through EmailJS.
         </p>
