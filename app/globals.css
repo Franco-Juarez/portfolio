@@ -5,6 +5,7 @@
 * {
   scroll-behavior: smooth;
   min-width: 0;
+  font-display: swap;
 }
 
 *, *::before, *::after {
