@@ -44,7 +44,7 @@ export default function About() {
             />
         </article>
         <article className="col-span-2 bg-white-theme dark:bg-black-card space-y-4 text-black-theme dark:text-white-theme p-4 rounded-md shadow-md">
-          <h4 className="
+          <h2 className="
           text-lg
           text-black-theme
           dark:text-white-theme 
@@ -56,7 +56,7 @@ export default function About() {
           dark:before:text-orange-theme
           ">
             A short introduction
-          </h4>
+          </h2>
           <p
           className="text-base"
           >
@@ -75,7 +75,7 @@ export default function About() {
         </article>
         <article className="row-span-2 col-span-2 bg-white-theme dark:bg-black-card p-4 rounded-md shadow-md text-black-theme dark:text-white-theme">
           <div className="space-y-2">
-            <h4 className="
+            <h2 className="
             text-lg
             text-black-theme
             dark:text-white-theme
@@ -86,7 +86,7 @@ export default function About() {
             before:border-orange-theme
             ">
               My everyday tools
-            </h4>
+            </h2>
             <div className="flex space-x-2">
               <HtmlIcon />
               <CssIcon />

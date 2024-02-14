@@ -1,7 +1,11 @@
 export default function Button({btnText, link}) {
+
+  const ariaLabel = `Enlace a ${btnText}`;
+
   return (
     <a 
       target="_blank"
+      aria-label={ariaLabel}
       href={link} 
       className="text-center 
       px-6 
