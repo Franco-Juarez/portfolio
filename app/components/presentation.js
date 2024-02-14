@@ -7,7 +7,7 @@ export default function Presentation() {
     <motion.section 
     initial={{opacity: 0}}
     animate={{ opacity: 1}}
-    transition={{delay: 1}}
+    transition={{delay: .5}}
     className="flex flex-col items-start w-full space-y-3 py-4 lg:space-y-2 min-h-fit lg:pb-24"
     >
     <h2
