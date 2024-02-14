@@ -150,6 +150,7 @@ export default function Navbar() {
           <li onClick={handleMobileNav}>
             <Button
             btnText={"Resumee"}
+            link={"https://drive.google.com/file/d/1WW8K8pMbK7t4vQPNKVHOr1CSMDw3-uRN/view?usp=sharing"}
             >
               Resumee
             </Button>
