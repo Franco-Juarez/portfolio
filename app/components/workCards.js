@@ -58,12 +58,14 @@ export default function WorkCards() {
       ">
         <div className="flex justify-between pb-4">
           <a 
+          aria-label={`Link to the ${proyect} repository`}
           href={proyect.repoLink}
           target="_blank"
           >
             <FolderIcon />
           </a>
           <a
+          aria-label={`Link to the ${proyect} deploy`}
           href={proyect.deployLink}
           target="_blank">
             <LinkIcon />

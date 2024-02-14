@@ -12,9 +12,9 @@ const proyectCard = [
     title: "Programming Blog",
     description: "A blog that facilitates navigation and post filtering based on categories. Additionally, it incorporates and loads posts using the markdown format.",
     date: "Dec 20, 2023",
-    repoLink: "#",
-    deployLink: "#",
-    tools: ["Next.js", "Chakra-UI", "Framer Motion"]
+    repoLink: "https://github.com/Franco-Juarez/duga-tres",
+    deployLink: "https://duga-tres.vercel.app/",
+    tools: ["Next.js", "CSS Modules", "Framer Motion"]
   },
   {
     title: "Links Co-work",

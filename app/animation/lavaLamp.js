@@ -29,6 +29,7 @@ const LavaLamp = () => {
 
     return (
       <button 
+      aria-label="Toggle Dark Mode" 
       onClick={handleTheme}
       className='fixed bottom-0 right-0'>
         <lord-icon

@@ -51,7 +51,7 @@ export default function FeaturedProyect() {
           <li>Framer Motion</li>
         </ul>
         <div className="flex space-x-4">
-          <a target='_blank' href="https://www.swwwing.com.ar/"><LinkIcon /></a>
+          <a aria-label="Link to Swwwing homepage" target='_blank' href="https://www.swwwing.com.ar/"><LinkIcon /></a>
         </div>
       </div>
       <Image 

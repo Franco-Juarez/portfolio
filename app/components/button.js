@@ -1,6 +1,6 @@
 export default function Button({btnText, link}) {
 
-  const ariaLabel = `Enlace a ${btnText}`;
+  const ariaLabel = `Link to ${btnText}`;
 
   return (
     <a 

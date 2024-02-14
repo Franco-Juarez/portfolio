@@ -7,17 +7,23 @@ export default function Footer() {
     <footer className="flex w-full flex-col items-center justify-center py-4 space-y-2">
         <ul className="flex justify-center space-x-4">
           <li>
-            <a href="https://www.linkedin.com/in/francojuarez/" target="_blank">
+            <a 
+            aria-label="Link to my Linkedin profile"
+            href="https://www.linkedin.com/in/francojuarez/" target="_blank">
               <LinkedinIcon />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/DevJuarrison" target="_blank">
+            <a 
+            aria-label="Link to my X profile"
+            href="https://twitter.com/DevJuarrison" target="_blank">
               <XIcon />
             </a>
           </li>
           <li>
-            <a href="https://github.com/Franco-Juarez" target="_blank">
+            <a 
+            aria-label="Link to my GitHub profile"
+            href="https://github.com/Franco-Juarez" target="_blank">
               <GithubIcon />
             </a>
           </li>
