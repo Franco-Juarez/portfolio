@@ -33,6 +33,7 @@ export default function About() {
             alt="Portrait of Franco Juárez on an orange background, front-end developer and creator of this website"
             width={300}
             height={300}
+            priority
             title="Portrait of Franco Juárez"
             src={Portrait}
             />
