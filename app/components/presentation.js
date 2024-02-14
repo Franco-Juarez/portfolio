@@ -8,7 +8,7 @@ export default function Presentation() {
     initial={{opacity: 0}}
     animate={{ opacity: 1}}
     transition={{delay: 1}}
-    className="flex flex-col items-start w-full space-y-3 py-4 lg:space-y-2 min-h-screen lg:min-h-fit lg:pb-24"
+    className="flex flex-col items-start w-full space-y-3 py-4 lg:space-y-2 min-h-fit lg:pb-24"
     >
     <h2
     className="text-orange-light-theme dark:text-orange-theme font-body text-md lg:text-lg pb-2"
