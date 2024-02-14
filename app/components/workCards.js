@@ -73,9 +73,9 @@ export default function WorkCards() {
         </div>
         <div>
           <p className="text-slate-400 text-sm font-body">{proyect.date}</p>
-          <h4 className="text-black-theme dark:text-white-theme font-bold text-lg">
+          <h2 className="text-black-theme dark:text-white-theme font-bold text-lg">
           {proyect.title}
-          </h4>
+          </h2>
         </div>
         <p className="text-black-theme dark:text-white-theme">
           {proyect.description}
