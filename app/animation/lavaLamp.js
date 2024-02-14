@@ -8,7 +8,7 @@ const LavaLamp = () => {
     useEffect(() => {
         const script = document.createElement('script');
         script.src = 'https://cdn.lordicon.com/lordicon.js';
-        script.defer= true;
+        script.async = true;
         document.body.appendChild(script);
 
         return () => {
