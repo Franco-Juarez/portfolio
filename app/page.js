@@ -1,4 +1,3 @@
-import LavaLamp from "./animation/lavaLamp";
 import About from "./components/about";
 import Contact from "./components/contact";
 import ExperienceSection from "./components/experience";
@@ -24,7 +23,6 @@ export default function Home() {
       <ExperienceSection />
       <WorkSection />
       <Contact />
-      <LavaLamp />
     </main>
   )
 }
