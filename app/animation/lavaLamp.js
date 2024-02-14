@@ -5,16 +5,16 @@ const LavaLamp = () => {
     
     const [theme, setTheme] = useState("dark")
 
-    useEffect(() => {
-        const script = document.createElement('script');
-        script.src = 'https://cdn.lordicon.com/lordicon.js';
-        script.async = true;
-        document.body.appendChild(script);
+    // useEffect(() => {
+    //     const script = document.createElement('script');
+    //     script.src = 'https://cdn.lordicon.com/lordicon.js';
+    //     script.async = true;
+    //     document.body.appendChild(script);
 
-        return () => {
-            document.body.removeChild(script);
-        };
-    }, []);
+    //     return () => {
+    //         document.body.removeChild(script);
+    //     };
+    // }, []);
 
     useEffect(() => {
       const mainLogo = document.querySelector(".main-logo");
