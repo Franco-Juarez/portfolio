@@ -14,7 +14,7 @@ const proyectCard = [
     date: "Dec 20, 2023",
     repoLink: "https://github.com/Franco-Juarez/duga-tres",
     deployLink: "https://duga-tres.vercel.app/",
-    tools: ["Next.js", "CSS Modules", "Framer Motion"]
+    tools: ["Next.js", "CSS", "Framer Motion"]
   },
   {
     title: "Links Co-work",
