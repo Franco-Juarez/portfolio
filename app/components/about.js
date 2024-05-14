@@ -29,8 +29,7 @@ export default function About() {
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-flow-col gap-y-4 lg:gap-4">
         <article className="row-span-3 font-body text-black-theme dark:text-white-theme bg-white-theme dark:bg-black-card p-8 rounded-md shadow-md flex flex-col items-center space-y-2">
           <Image
-            className="rounded-full" 
-            alt="Portrait of Franco Juárez on an orange background, front-end developer and creator of this website"
+            className="rounded-full"             alt="Portrait of Franco Juárez on an orange background, front-end developer and creator of this website"
             width={300}
             height={300}
             priority
