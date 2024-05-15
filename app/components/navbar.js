@@ -112,7 +112,7 @@ export default function Navbar() {
           >
             <Button
             btnText={"Resumee"}
-            link={"https://drive.google.com/file/d/1WW8K8pMbK7t4vQPNKVHOr1CSMDw3-uRN/view?usp=sharing"}
+            link={"https://drive.google.com/file/d/1L0FWmPD6H77n6xFUnkmzazxMFmXRXm9Y/view?usp=sharing"}
             />
           </motion.li>
         </motion.ul>
@@ -151,7 +151,7 @@ export default function Navbar() {
           <li onClick={handleMobileNav}>
             <Button
             btnText={"Resumee"}
-            link={"https://drive.google.com/file/d/1WW8K8pMbK7t4vQPNKVHOr1CSMDw3-uRN/view?usp=sharing"}
+            link={"https://drive.google.com/file/d/1L0FWmPD6H77n6xFUnkmzazxMFmXRXm9Y/view?usp=sharing"}
             >
               Resumee
             </Button>

@@ -29,7 +29,8 @@ export default function About() {
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:grid-flow-col gap-y-4 lg:gap-4">
         <article className="row-span-3 font-body text-black-theme dark:text-white-theme bg-white-theme dark:bg-black-card p-8 rounded-md shadow-md flex flex-col items-center space-y-2">
           <Image
-            className="rounded-full"             alt="Portrait of Franco Juárez on an orange background, front-end developer and creator of this website"
+            className="rounded-full"             
+            alt="Portrait of Franco Juárez on an orange background, front-end developer and creator of this website"
             width={300}
             height={300}
             priority
@@ -40,7 +41,7 @@ export default function About() {
             <a href="mailto:franjuaache@gmail.com" className="pb-4 hover:text-orange-light-theme dark:hover:text-orange-theme">franjuaache@gmail.com</a>
             <Button 
             btnText={"Resumee"}
-            link={"https://drive.google.com/file/d/1WW8K8pMbK7t4vQPNKVHOr1CSMDw3-uRN/view?usp=sharing"}
+            link={"https://drive.google.com/file/d/1L0FWmPD6H77n6xFUnkmzazxMFmXRXm9Y/view?usp=sharing"}
             />
         </article>
         <article className="col-span-2 bg-white-theme dark:bg-black-card space-y-4 text-black-theme dark:text-white-theme p-4 rounded-md shadow-md">
