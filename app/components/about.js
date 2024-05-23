@@ -68,6 +68,9 @@ export default function About() {
           >
           Understanding syntax and structure isn´t just about languages; it forms the rock of my coding philosophy. I´ve delved deep into <span className="text-orange-light-theme dark:text-orange-theme">JavaScript, HTML, CSS,</span> and <span className="text-orange-light-theme dark:text-orange-theme">React.js,</span> exploring frameworks like <span className="text-orange-light-theme dark:text-orange-theme">Next.js</span> to construct efficient, delightful-to-use websites. In my tech toolkit, platforms like <span className="text-orange-light-theme dark:text-orange-theme">Firebase</span> for backend wizardry and <span className="text-orange-light-theme dark:text-orange-theme">Vercel</span> for dynamic web development have been my go-to allies in creating scalable solutions.
           </p>
+          <p className="text-base">
+          Currently, I am further enhancing my technical expertise by studying a <span className="text-orange-light-theme dark:text-orange-theme">Programming Technical Degree </span>at the National Technological University (UTN). This academic pursuit is sharpening my skills and broadening my understanding of advanced programming concepts and techniques.
+          </p>
           <p 
           className="text-base"
           >
