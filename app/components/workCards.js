@@ -38,7 +38,7 @@ export default function WorkCards() {
     variants={cardVariants}
     initial={'hidden'}
     animate={isInViewWorkCards ? 'visible' : 'hidden'}
-    className="grid lg:grid-cols-3 space-y-4 lg:space-y-0 lg:space-x-4">
+    className="grid lg:grid-cols-2 space-y-4 lg:space-y-0 lg:space-x-4">
      {proyectCard.map((proyect, index) => 
      (
       <motion.div 

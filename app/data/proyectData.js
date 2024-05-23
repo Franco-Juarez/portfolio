@@ -1,20 +1,12 @@
 
 const proyectCard = [
   {
-    title: "E-commerce",
-    description: "Simulation of an online product purchasing website, featuring integration with a Firebase database and styled with Tailwind CSS for enhanced aesthetics.",
-    date: "Jun 10, 2023",
-    repoLink: "https://github.com/Franco-Juarez/EntregaFinal-Juarez",
-    deployLink: "https://entrega-final-juarez.vercel.app/",
-    tools: ["React", "Tailwind CSS", "Firebase"]
-  },
-  {
-    title: "Programming Blog",
-    description: "A blog that facilitates navigation and post filtering based on categories. Additionally, it incorporates and loads posts using the markdown format.",
-    date: "Dec 20, 2023",
-    repoLink: "https://github.com/Franco-Juarez/duga-tres",
-    deployLink: "https://duga-tres.vercel.app/",
-    tools: ["Next.js", "CSS", "Framer Motion"]
+    title: "Wordpress Site",
+    description: "Official website of the digital marketing agency Resto Experience, specialized in the gastronomy industry. Built using WordPress and Elementor Pro as the page builder plugin.",
+    date: "Mar 10, 2024",
+    repoLink: "#",
+    deployLink: "https://restoexp.com/",
+    tools: ["Wordpress", "Elementor"]
   },
   {
     title: "Links Co-work",

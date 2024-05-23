@@ -41,16 +41,29 @@ export default function ExperienceSection() {
       </header>
       {activeSection === "restoExperience" && 
         <ExperienceDescription
-        position="Wordpress Developer"
+        position="Web Design & Development Manager"
         company="Resto Experience"
         companyLink="https://www.linkedin.com/company/restoexperience/"
-        jobDate="Jun 2023 - Present"
+        jobDate="Mar 2024 - Present"
         jobLocation="Atlanta, United States"
         jobDescription={[
-          "I specialize in crafting responsive and user-centric websites, primarily leveraging WordPress as the foundation. My approach involves integrating custom elements using HTML, CSS, and JavaScript to ensure a tailored and dynamic user experience. I work closely with both the graphic design and UX/UI design teams, fostering collaborative efforts to seamlessly merge visual and interactive components. This collaborative process aims not only to enhance the overall user experience but also to uphold the visual coherence and corporate identity of our clients.",
-          "In addition to my development role, I take charge of the essential optimization process for projects, adapting them to diverse resolutions. This final step ensures that the websites perform optimally across various devices and screen sizes. By combining technical expertise with a keen eye for design integration, I contribute to creating digital platforms that not only meet functional requirements but also excel in delivering an aesthetically pleasing and user-friendly online experience."
+          "As the manager of the Web Design and Development team, I am responsible for organizing team tasks, providing support for the execution of complex tasks, creating comprehensive maintenance strategies for all websites, and guiding the team to help them develop their potential.",
+          "By combining my technical experience with a keen eye for design integration, I play a pivotal role in delivering digital platforms that not only meet functional requirements but also provide an aesthetically pleasing and user-friendly online experience. My role as leader ensures that our web development projects are executed efficiently, on time, and within budget, while continuously striving to innovate and improve our web design strategies."
         ]}
         />
+      }
+      {activeSection === "restoExperience" && 
+      <ExperienceDescription
+      position="Wordpress Developer"
+      company="Resto Experience"
+      companyLink="https://www.linkedin.com/company/restoexperience/"
+      jobDate="Jun 2023 - Mar 2024"
+      jobLocation="Atlanta, United States"
+      jobDescription={[
+        "I specialize in crafting responsive and user-centric websites, primarily leveraging WordPress as the foundation. My approach involves integrating custom elements using HTML, CSS, and JavaScript to ensure a tailored and dynamic user experience. I work closely with both the graphic design and UX/UI design teams, fostering collaborative efforts to seamlessly merge visual and interactive components. This collaborative process aims not only to enhance the overall user experience but also to uphold the visual coherence and corporate identity of our clients.",
+        "In addition to my development role, I take charge of the essential optimization process for projects, adapting them to diverse resolutions. This final step ensures that the websites perform optimally across various devices and screen sizes. By combining technical expertise with a keen eye for design integration, I contribute to creating digital platforms that not only meet functional requirements but also excel in delivering an aesthetically pleasing and user-friendly online experience."
+      ]}
+      />
       }
       {activeSection === "swwwing" && 
         <ExperienceDescription
